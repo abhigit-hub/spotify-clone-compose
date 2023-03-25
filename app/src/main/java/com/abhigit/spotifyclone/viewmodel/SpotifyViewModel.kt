@@ -33,16 +33,16 @@ class SpotifyViewModel @Inject constructor(): ViewModel() {
     private fun populateRecentPlayedItems() {
         _recentPlayedItems.value = listOf(
             RecentPlayedItem(
-                itemName = "Tienas",
-                itemUrl = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fopen.spotify.com%2Fartist%2F6JvFJaw7uRQFBUzSlv28Gw&psig=AOvVaw2bS-6Nz8gcoFHrBVEfPbYn&ust=1679873172693000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCNCk86-d-P0CFQAAAAAdAAAAABAE"
+                itemName = "Seedhe Maut",
+                itemUrl = "https://i.scdn.co/image/ab67616d0000b2731587397f0ed35797f98ed6a8"
             ),
             RecentPlayedItem(
-                itemName = "Lo-Fi | Hip/Hop / Chillhop (Relaxing and Chill Vibes)",
-                itemUrl = "https://www.google.com/url?sa=i&url=https%3A%2F%2Fopen.spotify.com%2Falbum%2F3lJBZzQIQiZze8lTCsVAH2&psig=AOvVaw27lEiV_R6xrTHTU_-eKEdn&ust=1679873233971000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCOCih86d-P0CFQAAAAAdAAAAABAE"
+                itemName = "MF DOOM",
+                itemUrl = "https://i.scdn.co/image/ab6761610000e5eb3e9a6caa41a80b9238a49784"
             ),
             RecentPlayedItem(
                 itemName = "Eminem Playlist",
-                itemUrl = ""
+                itemUrl = "https://lite-images-i.scdn.co/image/ab67706f000000027a181d9fed936372672c40ca"
             ),
             RecentPlayedItem(
                 itemName = "Smokey The Ghost",
@@ -191,10 +191,6 @@ class SpotifyViewModel @Inject constructor(): ViewModel() {
                 ),
                 ArtistItem(
                     artistName = "Prabh Deep",
-                    artistImageUrl = "https://lite-images-i.scdn.co/image/ab67616d0000b273accf93bef1c912d3597200cc"
-                ),
-                ArtistItem(
-                    artistName = "The Notourious B.I.G",
                     artistImageUrl = "https://lite-images-i.scdn.co/image/ab67616d0000b273accf93bef1c912d3597200cc"
                 ),
                 ArtistItem(
