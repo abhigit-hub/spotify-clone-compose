@@ -50,7 +50,6 @@ fun RecentItem(item: RecentPlayedItem, modifier: Modifier) {
                 modifier = Modifier
                     .fillMaxHeight()
                     .width(80.dp)
-                    .align(Alignment.CenterVertically)
             )
             Text(
                 text = item.itemName,

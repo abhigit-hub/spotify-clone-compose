@@ -10,6 +10,7 @@ import androidx.compose.material.Text
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.PlayArrow
+import androidx.compose.material.icons.filled.PlayCircle
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
@@ -113,13 +114,11 @@ fun SongTileMain(trackItem: TrackItem) {
                        modifier = Modifier.size(45.dp)
                    )
                    Icon(
-                       Icons.Filled.PlayArrow,
+                       Icons.Filled.PlayCircle,
                        contentDescription = "",
                        modifier = Modifier
                            .size(50.dp)
                            .shadow(shape = CircleShape, elevation = 5.dp)
-                           .background(Color.White)
-                           .padding(10.dp)
                    )
                }
            }

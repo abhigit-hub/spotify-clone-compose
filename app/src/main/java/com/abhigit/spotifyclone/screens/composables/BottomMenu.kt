@@ -57,14 +57,15 @@ fun BottomMenuItem(
     Column(
         horizontalAlignment = Alignment.CenterHorizontally,
         verticalArrangement = Arrangement.Center,
-        modifier = Modifier.clickable {
+        modifier = Modifier
+            .defaultMinSize(200.dp, 60.dp)
+            .clickable {
             onItemClick()
         }
     ) {
         Box(
             contentAlignment = Alignment.Center,
             modifier = Modifier
-                .clip(RoundedCornerShape(10.dp))
                 .padding(15.dp)
         ) {
             Icon(
